@@ -60,11 +60,12 @@
     </div>
 
     <div class="col-md-4">
-      <div class="service-card p-4 shadow-sm">
+    <div class="service-card p-4 shadow-sm">
+        <img src="poli_gigi.jpg" alt="Poli Gigi" class="img-fluid mb-3 rounded">
         <i class="bi bi-tooth-fill service-icon text-success"></i>
         <h5 class="fw-bold mt-3">Poli Gigi</h5>
         <p>Perawatan gigi lengkap dan tanpa rasa sakit.</p>
-      </div>
+    </div>
     </div>
 
     <div class="col-md-4">

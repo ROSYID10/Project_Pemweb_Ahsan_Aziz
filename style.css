@@ -1,7 +1,7 @@
 /* -------- GLOBAL -------- */
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: #88e788;
+    background-color: #f5f8f5;
     color: #333;
 }
 
@@ -84,5 +84,5 @@ h1, h2, h3, h4, h5 {
 }
 
 .footer .bg-dark {
-    background-color: #0c7035 !important;
+    background-color: #0b9043 !important;
 }
