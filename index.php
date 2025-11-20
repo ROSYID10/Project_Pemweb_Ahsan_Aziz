@@ -4,80 +4,89 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Klinik Sehat Bersama</title>
-    <link href ="style.css" rel="stylesheet">
-    <!-- Bootstrap 5 -->
+    
+    <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-
-   
+    
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link href="style.css" rel="stylesheet" >
 </head>
-
 <body>
 
 <!-- NAVBAR -->
-<nav class="navbar navbar-expand-lg navbar-dark bg-primary p-3">
-    <div class="container">
-        <a class="navbar-brand fw-bold" href="#">Klinik Sehat Bersama</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-            data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
-            aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+<nav class="navbar navbar-expand-lg navbar-light shadow-sm fixed-top bg-white">
+  <div class="container">
+    <a class="navbar-brand fw-bold text-success" href="#">Klinik Sehat Bersama</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
-                <li class="nav-item"><a class="nav-link active" href="#">Beranda</a></li>
-                <li class="nav-item"><a class="nav-link" href="user_tambah.php">Ambil Antrian</a></li>
-                <li class="nav-item"><a class="nav-link" href="cek_antrian.php">Cek Antrian</a></li>
-                <li class="nav-item"><a class="nav-link" href="admin_login.php">Admin</a></li>
-            </ul>
-        </div>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto fw-semibold">
+        <li class="nav-item"><a class="nav-link active text-success" href="#">Beranda</a></li>
+        <li class="nav-item"><a class="nav-link" href="user_tambah.php">Ambil Antrian</a></li>
+        <li class="nav-item"><a class="nav-link" href="cek_antrian.php">Cek Antrian</a></li>
+        <li class="nav-item"><a class="nav-link" href="admin_login.php">Admin</a></li>
+      </ul>
     </div>
+  </div>
 </nav>
 
-<!-- HERO SECTION -->
-<section class="hero">
-    <div class="overlay d-flex flex-column justify-content-center align-items-start">
-        <h1 class="fw-bold display-4">Selamat Datang di Klinik Sehat Bersama</h1>
-        <p class="lead mt-3">Pelayanan kesehatan terbaik untuk keluarga Anda.</p>
-        <a href="user_tambah.php" class="btn btn-light btn-lg mt-4 fw-bold">Ambil Antrian Sekarang</a>
+<!-- HERO -->
+<section class="hero d-flex align-items-center">
+  <div class="container">
+    <div class="col-lg-7">
+      <h1 class="fw-bold text-white">Pelayanan Medis Terbaik Untuk Keluarga Anda</h1>
+      <p class="lead text-light mt-3">Cepat, aman, nyaman dan terpercaya.</p>
+      <a href="user_tambah.php" class="btn btn-lg btn-warning fw-bold mt-4">Ambil Antrian</a>
     </div>
+  </div>
 </section>
 
-<!-- FITUR -->
-<section class="container text-center my-5">
-    <h2 class="fw-bold mb-4">Layanan Utama Kami</h2>
+<!-- LAYANAN -->
+<section class="container text-center py-5">
+  <h2 class="fw-bold text-success mb-4">Layanan Kami</h2>
 
-    <div class="row g-4">
-
-        <div class="col-md-4">
-            <div class="card shadow p-4">
-                <div class="fitur-icon mb-3">🩺</div>
-                <h5 class="fw-bold">Pemeriksaan Umum</h5>
-                <p>Konsultasi kesehatan untuk segala keluhan umum.</p>
-            </div>
-        </div>
-
-        <div class="col-md-4">
-            <div class="card shadow p-4">
-                <div class="fitur-icon mb-3">🦷</div>
-                <h5 class="fw-bold">Poli Gigi</h5>
-                <p>Perawatan gigi dan mulut oleh dokter berpengalaman.</p>
-            </div>
-        </div>
-
-        <div class="col-md-4">
-            <div class="card shadow p-4">
-                <div class="fitur-icon mb-3">👶</div>
-                <h5 class="fw-bold">Poli Anak</h5>
-                <p>Perawatan khusus untuk anak dengan suasana ramah.</p>
-            </div>
-        </div>
-
+  <div class="row g-4">
+    <div class="col-md-4">
+      <div class="service-card p-4 shadow-sm">
+        <i class="bi bi-heart-pulse-fill service-icon text-success"></i>
+        <h5 class="fw-bold mt-3">Pemeriksaan Umum</h5>
+        <p>Penanganan keluhan umum oleh dokter profesional.</p>
+      </div>
     </div>
+
+    <div class="col-md-4">
+      <div class="service-card p-4 shadow-sm">
+        <i class="bi bi-tooth-fill service-icon text-success"></i>
+        <h5 class="fw-bold mt-3">Poli Gigi</h5>
+        <p>Perawatan gigi lengkap dan tanpa rasa sakit.</p>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="service-card p-4 shadow-sm">
+        <i class="bi bi-emoji-smile-fill service-icon text-success"></i>
+        <h5 class="fw-bold mt-3">Poli Anak</h5>
+        <p>Konsultasi khusus anak dengan lingkungan ramah.</p>
+      </div>
+    </div>
+  </div>
 </section>
-<footer class="text-center">
-    <p>© 2025 Klinik Sehat Bersama. Semua Hak Dilindungi.</p>
+
+<!-- FOOTER -->
+<footer class="footer text-center text-white pt-4">
+  <p class="fw-bold mb-1">Klinik Sehat Bersama</p>
+  <small>Jl. Kesehatan No. 123 - Yogyakarta</small><br>
+  <small>Telp/WA: 0812-3456-7890</small>
+  <div class="mt-3 p-2 bg-dark text-white">
+    <small>© 2025 Semua Hak Dilindungi.</small>
+  </div>
 </footer>
 
-
-
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
