@@ -9,7 +9,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     
     <!-- Bootstrap Icons -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
     
     <!-- Custom CSS -->
     <link href="style.css" rel="stylesheet" >
@@ -61,8 +61,9 @@
 
     <div class="col-md-4">
     <div class="service-card p-4 shadow-sm">
-        <img src="poli_gigi.jpg" alt="Poli Gigi" class="img-fluid mb-3 rounded">
-        <i class="bi bi-tooth-fill service-icon text-success"></i>
+        <i class="bi bi-tooth-fill text-success" style="font-size: 3rem;"></i>
+         <!-- <i class="bi bi-alarm-fill text-success" style="font-size:3rem;"></i> -->
+
         <h5 class="fw-bold mt-3">Poli Gigi</h5>
         <p>Perawatan gigi lengkap dan tanpa rasa sakit.</p>
     </div>
