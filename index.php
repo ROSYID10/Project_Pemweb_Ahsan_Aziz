@@ -75,6 +75,9 @@
 
     </div>
 </section>
+<footer class="text-center">
+    <p>© 2025 Klinik Sehat Bersama. Semua Hak Dilindungi.</p>
+</footer>
 
 
 
